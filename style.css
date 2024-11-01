@@ -5,6 +5,8 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .header {
@@ -17,10 +19,9 @@ body {
     flex-wrap: wrap;
 }
 
-.logo img {
-    max-width: 240px; /* Ajuste o tamanho do logo conforme necessário */
-    height: auto;
-    border-radius: 50%;
+.logo  {
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .menu ul {
@@ -43,11 +44,12 @@ a {
 
 .hero {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 50px;
     background-color: #1F2937;
     color: #F9FaF8;
+    gap: 150px;
 }
 
 .hero-content {
@@ -74,8 +76,8 @@ a {
 }
 
 .hero-img img {
-    width: 500px;
-    height: 280px;
+    width: 600px;
+    height: 400px;
     border-radius: 10px;
 }
 
